@@ -1,6 +1,6 @@
 # Data science for real estate
 ## Built Heritage vs Real Estate Market. The Barcelona case 
-[BLog link](https://blog.iaac.net/correlation-of-heritage-and-real-estate-barcelona-case/)
+[BLog link](https://blog.iaac.net/correlation-of-heritage-and-real-estate-barcelona-case/)</br>
 Data science project in Python </br>
 tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy +  Folium + BeautifulSoup + OSMNX + Matplotlib + Plotly + Networks + PyTorch.
 ## Questions
