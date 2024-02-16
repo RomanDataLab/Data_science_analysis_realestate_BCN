@@ -35,6 +35,8 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 ![](visuals/scrape_1.JPG)
 ### Hexagon histogram from the previous geodataset
 ![](visuals/Hist_scraped01.png)
+### GIF Map with the merged dataset of listings and Barcelona neighborhoods showing amount of listings, minimum, maximum, average, mean, medium prices.
+![](visuals/sales_bcn.gif)
 ## References
 - OpenStreetMap: [OpenStreetMap](https://www.openstreetmap.org)
 - Institut Cartogràfic i Geològic de Catalunya: [ICGC](http://www.icgc.cat)
