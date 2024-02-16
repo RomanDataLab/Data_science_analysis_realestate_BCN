@@ -40,6 +40,10 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 ![](visuals/sales_bcn.gif)
 ### Map data visualization of the spatial lag of mean prices by neighborhoods of Barcelona.
 ![](visuals/neigh_07_mean spatial lag.png)
+### Map of data visualization of listings clustered by price.
+![](visuals/clusters.JPG)
+### Lollipop graph of clusters.
+![](visuals/lollipop.png)
 
 ## References
 - OpenStreetMap: [OpenStreetMap](https://www.openstreetmap.org)
