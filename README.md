@@ -18,7 +18,7 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 - strong correlation observed not only between the real estate cost and alone standing heritage buildings but also between the real estate cost and historical neighborhoods that include not-listed old buildings.
 - the spatial lag reveals clustering of neighborhoods by mean sale price
 ## video presentation
-[![ALt text](https://img.youtube.com/vi/d7XqRdQ6O6Y/2.jpg)](https://www.youtube.com/watch?v=d7XqRdQ6O6Y)
+[![ALt text](https://img.youtube.com/vi/d7XqRdQ6O6Y/0.jpg)](https://www.youtube.com/watch?v=d7XqRdQ6O6Y)
 ## methodology
 1. Evaluate the best way of creating a real estate prices dataset by testing API and scraping approaches, finally get a dataset with sufficient data entries. [source>>](DS3_FIN_11.ipynb)
 2. Calculate the price per sqm for each data entry in the real estate prices dataset.
