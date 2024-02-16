@@ -1,5 +1,6 @@
 # Data science for real estate
 ## Built Heritage vs Real Estate Market. The Barcelona case 
+[BLog link](https://blog.iaac.net/correlation-of-heritage-and-real-estate-barcelona-case/)
 Data science project in Python </br>
 tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy +  Folium + BeautifulSoup + OSMNX + Matplotlib + Plotly + Networks + PyTorch.
 ## Questions
@@ -28,11 +29,12 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 6. Make a correlation between mean, max, min, and average price per sqm and heritage buffer zones, heritage-like buffer zones.
 7. Evaluate the hypothesis, check the data on conditions of heritage buildings in non-correlated zones.
 ## data visualization
-### Map representing geographical distribution of listing retrieved by Idealista API
+### Map representing geographical distribution of listings retrieved by Idealista API and aggregated by natural jenks
 ![Alt text](visuals/api_2.JPG)
-### Map representing geographical distribution of listing retrieved by ready dataset sourced from Fotocasa
+### Map representing geographical distribution of listings retrieved by ready dataset sourced from Fotocasa and aggregated by natural jenks
 ![](visuals/scrape_1.JPG)
-
+### Hexagon histogram from the previous geodataset
+![](visuals/Hist_scraped01.png)
 ## References
 - OpenStreetMap: [OpenStreetMap](https://www.openstreetmap.org)
 - Institut Cartogràfic i Geològic de Catalunya: [ICGC](http://www.icgc.cat)
