@@ -28,10 +28,10 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 6. Make a correlation between mean, max, min, and average price per sqm and heritage buffer zones, heritage-like buffer zones.
 7. Evaluate the hypothesis, check the data on conditions of heritage buildings in non-correlated zones.
 ## data visualization
-### Spinning Globe with datalabels of hemp production by country
-![Alt text](visuals/globe_fin.gif)
-### Grasshopper definition of Global hemp production
-![](visuals/globe001.png)
+### Map representing geographical distribution of listing retrieved by Idealista API
+![Alt text](visuals/api_2.JPG)
+### Map representing geographical distribution of listing retrieved by ready dataset sourced from Fotocasa
+![](visuals/scrape_1.JPG)
 
 ## References
 - OpenStreetMap: [OpenStreetMap](https://www.openstreetmap.org)
