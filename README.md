@@ -39,7 +39,7 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 ### GIF Map visualization of the merged dataset of listings and Barcelona neighborhoods showing amount of listings, minimum, maximum, average, mean, medium prices.
 ![](visuals/sales_bcn.gif)
 ### Map data visualization of the spatial lag of mean prices by neighborhoods of Barcelona.
-![](visuals/neigh_07_mean spatial lag.png)
+![](visuals/neigh_07_mean spatial lag.png) 
 ### Map of data visualization of listings clustered by price.
 ![](visuals/clusters.JPG)
 ### Lollipop graph of clusters.
