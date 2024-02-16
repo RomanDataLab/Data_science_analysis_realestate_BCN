@@ -10,9 +10,9 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 - Idealista API for query of real estate lots
 - Geographical distribution of data by natural jenks
 - Geographical distribution of data by hexagon histogram
-- Measuring the Spatial lag
+- Measuring regions the Spatial lag
 - Clustering maps by K-Means
-- Merging maps built from different datasets for correlation insights
+- Merging and overlapping maps built from different datasets for correlation insights
 ## Key takeaways
 - spatial affect of built heritage spreads within isochrones of 10-munites walk from listed heritage buildings
 - strong correlation observed not only between the real estate cost and alone standing heritage buildings but also between the real estate cost and historical neighborhoods that include not-listed old buildings.
