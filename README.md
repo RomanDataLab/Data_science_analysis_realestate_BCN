@@ -1,7 +1,7 @@
 # Data science for real estate
 ## Built Heritage vs Real Estate Market. The Barcelona case 
 Data science project in Python </br>
-tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy +  Folium + BeautifulSoup + OSMNX + Matplotlib + Plotly + Networks + PyTorch + Mapbox API.
+tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy +  Folium + BeautifulSoup + OSMNX + Matplotlib + Plotly + Networks + PyTorch.
 ## Questions
 - How official status of built heritage affects real estate prices?
 - How correlation could be identified geographically?
@@ -9,15 +9,16 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 ## What I learned: 
 - Idealista API for query of real estate lots
 - Geographical distribution of data by natural jenks
-- Spatial lag
-
+- Geographical distribution of data by hexagon histogram
+- Measuring the Spatial lag
+- Clustering maps by K-Means
+- Merging maps built from different datasets for correlation insights
 ## Key takeaways
-- spatial affect of built heritage spreads within isochrones of 10-munites walk from listed buildings
-- festivals in Spain have categories that correlate with state and local subventions: Interes Internacional, Interes National, Interes Local
-- main concentration of festivals is allocated in Catalan Countries: Catalonia, Valencia, Balearic Islands, and Galicia
-
+- spatial affect of built heritage spreads within isochrones of 10-munites walk from listed heritage buildings
+- strong correlation observed not only between the real estate cost and alone standing heritage buildings but also between the real estate cost and historical neighborhoods that include not-listed old buildings.
+- the spatial lag reveals clustering of neighborhoods by mean sale price
 ## video presentation
-[![](https://img.youtube.com/vi/d7XqRdQ6O6Y/2.jpg)](https://www.youtube.com/watch?v=d7XqRdQ6O6Y)
+[![ALt text](https://img.youtube.com/vi/d7XqRdQ6O6Y/2.jpg)](https://www.youtube.com/watch?v=d7XqRdQ6O6Y)
 ## methodology
 1. Evaluate the best way of creating a real estate prices dataset by testing API and scraping approaches, finally get a dataset with sufficient data entries. [source>>](DS3_FIN_11.ipynb)
 2. Calculate the price per sqm for each data entry in the real estate prices dataset.
