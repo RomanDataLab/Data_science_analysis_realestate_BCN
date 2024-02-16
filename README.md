@@ -2,7 +2,7 @@
 ## Built Heritage vs Real Estate Market. The Barcelona case 
 [BLog link](https://blog.iaac.net/correlation-of-heritage-and-real-estate-barcelona-case/)</br>
 Data science project in Python </br>
-tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy +  Folium + BeautifulSoup + OSMNX + Matplotlib + Plotly + Networks + PyTorch.
+tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy +  Folium + BeautifulSoup + OSMNX + Matplotlib + Plotly + Networkx + Scikit-learn.
 ## Questions
 - How official status of built heritage affects real estate prices?
 - How correlation could be identified geographically?
@@ -19,6 +19,7 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 - spatial affect of built heritage spreads within isochrones of 10-munites walk from listed heritage buildings
 - strong correlation observed not only between the real estate cost and alone standing heritage buildings but also between the real estate cost and historical neighborhoods that include not-listed old buildings.
 - the spatial lag reveals the highest demand for real estate in neighborhoods La Dreta and Les Cortes.
+- 50% of all residential buildings in Barcelona were built between 1920-1970s, and together with more oldest 22% they combine the 72% cogort of buildings older 50 years.
 ## video presentation
 [![ALt text](https://img.youtube.com/vi/d7XqRdQ6O6Y/0.jpg)](https://www.youtube.com/watch?v=d7XqRdQ6O6Y)
 ## methodology
@@ -40,10 +41,21 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 ![](visuals/sales_bcn.gif)
 ### Map data visualization of the spatial lag of mean prices by neighborhoods of Barcelona.
 ![](visuals/neigh_07_mean_spatial_lag.png) 
-### Map of data visualization of listings clustered by price. | Lollipop graph of clusters.
-![](visuals/clusters.JPG) | ![](visuals/lollipop.png)
+### Map of data visualization of listings clustered by price. K-means by Scikit-learn
+![](visuals/clusters.JPG)
 ### Lollipop graph of clusters.
 ![](visuals/lollipop.png)
+### Map data visualization of overlapping ORANGE 100-m buffers around [osm heritage amentites](https://wiki.openstreetmap.org/wiki/Key:heritage) and BLUE 2 heighest clusters of listings.
+![](visuals/heritage_amenities.png)
+### Map data visualization of 5 - 10 - 20 min isochrones around [osm heritage amentites](https://wiki.openstreetmap.org/wiki/Key:heritage).
+![](visuals/isochrones.jpg)
+### Map data visualization the histogram range by the mean apartment price within heritage 10-min isochrone areas.
+![](visuals/heri_01.jpg)
+### Map data visualization the buildings footprints clustered by 5 ranges of construction years.
+![](visuals/buildings_all.png)
+### Donut chart of 5 clusters of buildings in Barcelona by age.
+![](visuals/donut_buildings.png)
+
 
 ## References
 - OpenStreetMap: [OpenStreetMap](https://www.openstreetmap.org)
