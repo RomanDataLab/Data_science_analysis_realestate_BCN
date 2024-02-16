@@ -55,7 +55,10 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 ![](visuals/buildings_all.png)
 ### Donut chart of 5 clusters of buildings in Barcelona by age.
 ![](visuals/donut_buildings.png)
-
+### Map data visualization representing 5-age clustering the all residential and heritage-listed buildings.
+![](visuals/building_filter.jpg)
+### Map data visualization of overlapping datasets of over-100-years-old buildings and 10-min walkability isochrones of 2 heighest price range clusters of listings.
+![](visuals/analysis_housings.jpg)
 
 ## References
 - OpenStreetMap: [OpenStreetMap](https://www.openstreetmap.org)
