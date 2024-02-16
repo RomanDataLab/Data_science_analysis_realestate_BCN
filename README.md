@@ -25,7 +25,7 @@ tools: Jupyter Notebook, Python,  Idealista API  +  Pandas +  Geopandas +  Numpy
 ## methodology
 1. Evaluate the best way of creating a real estate prices dataset by testing API and scraping approaches, finally get a dataset with sufficient data entries. [source>>](DS3_FIN_11.ipynb)
 2. Calculate the price per sqm for each data entry in the real estate prices dataset.[source>>](DS3_FIN_11.ipynb)
-3. Match the real estate prices dataset with the Barcelona neighborhood shapefile, calculate mean, max, min, and average price per sqm. [source>>](DS3_FIN_2+3.ipynb), [source>>](DS3_FIN_3a_Spatial Lag.ipynb) 
+3. Match the real estate prices dataset with the Barcelona neighborhood shapefile, calculate mean, max, min, and average price per sqm. [source>>](DS3_FIN_2+3.ipynb)
 4. Fetch heritage points and polygons from OpenStreetMap, create isochrones of them at 100, 400, and 800 meters. [source>>](DS3_FIN_4.ipynb)
 5. Fetch buildings data from the public cadastre, categorize them by heritage-like and not (already 50 years old buildings could fit the built heritage policy requirements), cluster buildings, make buffers of 400m, match the amount of heritage-like buildings with the Barcelona neighborhood shapefile. [source>>](DS3_FIN_4.ipynb)
 6. Make a correlation between mean, max, min, and average price per sqm and heritage buffer zones, heritage-like buffer zones. [source>>](DS3_FIN_5+6.ipynb)
